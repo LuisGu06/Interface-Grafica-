@@ -27,184 +27,98 @@ public class Exemplo16 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        botao15 = new javax.swing.JTabbedPane();
-        jPanel1 = new javax.swing.JPanel();
-        botao11 = new javax.swing.JButton();
-        botao12 = new javax.swing.JButton();
-        botao13 = new javax.swing.JButton();
-        botao14 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jPanel2 = new javax.swing.JPanel();
-        botao1 = new javax.swing.JButton();
-        botao2 = new javax.swing.JButton();
-        botao3 = new javax.swing.JButton();
-        botao4 = new javax.swing.JButton();
-        botao5 = new javax.swing.JButton();
-        jPanel3 = new javax.swing.JPanel();
-        botao6 = new javax.swing.JButton();
-        botao7 = new javax.swing.JButton();
-        botao8 = new javax.swing.JButton();
-        botao9 = new javax.swing.JButton();
-        botao10 = new javax.swing.JButton();
+        jTabbedPane1 = new javax.swing.JTabbedPane();
+        jPanel4 = new javax.swing.JPanel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jPanel5 = new javax.swing.JPanel();
+        jButton8 = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
+        jButton10 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
+        jPanel6 = new javax.swing.JPanel();
+        jButton12 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
+        jButton16 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Exemplo 16");
 
-        botao11.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        botao11.setText("Botão 1");
+        jPanel4.setLayout(new java.awt.GridLayout(5, 0));
 
-        botao12.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        botao12.setText("Botão 2");
+        jButton1.setText("Botão 1");
+        jPanel4.add(jButton1);
 
-        botao13.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        botao13.setText("Botão 3");
+        jButton2.setText("Botão 2");
+        jPanel4.add(jButton2);
 
-        botao14.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        botao14.setText("Botão 5");
+        jButton3.setText("Botão 3");
+        jPanel4.add(jButton3);
 
-        jButton4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jButton4.setText("Botão 4");
+        jButton6.setText("Botão 4");
+        jPanel4.add(jButton6);
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(botao11, javax.swing.GroupLayout.DEFAULT_SIZE, 353, Short.MAX_VALUE)
-            .addComponent(botao12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(botao13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(botao14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(botao11, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(1, 1, 1)
-                .addComponent(botao12, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(1, 1, 1)
-                .addComponent(botao13, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(1, 1, 1)
-                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(botao14, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 23, Short.MAX_VALUE))
-        );
+        jButton5.setText("Botão 5");
+        jPanel4.add(jButton5);
 
-        botao15.addTab("Grid Layout", jPanel1);
+        jTabbedPane1.addTab("GridLayout ", jPanel4);
 
-        botao1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        botao1.setText("Botão 10");
+        jButton8.setText("Botão 6");
+        jPanel5.add(jButton8);
 
-        botao2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        botao2.setText("Botão 9");
+        jButton11.setText("Botão 7");
+        jPanel5.add(jButton11);
 
-        botao3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        botao3.setText("Botão 8");
+        jButton10.setText("Botão 8");
+        jPanel5.add(jButton10);
 
-        botao4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        botao4.setText("Botão 7");
+        jButton9.setText("Botão 9");
+        jPanel5.add(jButton9);
 
-        botao5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        botao5.setText("Botão 6");
+        jButton7.setText("Botão 10");
+        jPanel5.add(jButton7);
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(botao5, javax.swing.GroupLayout.DEFAULT_SIZE, 353, Short.MAX_VALUE)
-            .addComponent(botao4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(botao3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(botao2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(botao1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addComponent(botao5, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(1, 1, 1)
-                .addComponent(botao4, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(1, 1, 1)
-                .addComponent(botao3, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(1, 1, 1)
-                .addComponent(botao2, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(botao1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 23, Short.MAX_VALUE))
-        );
+        jTabbedPane1.addTab("FlowLayout", jPanel5);
 
-        botao15.addTab("Flow Layout", jPanel2);
+        jPanel6.setLayout(new java.awt.BorderLayout());
 
-        botao6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        botao6.setText("South");
+        jButton12.setText("Center");
+        jPanel6.add(jButton12, java.awt.BorderLayout.CENTER);
 
-        botao7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        botao7.setText("East");
+        jButton14.setText("North");
+        jPanel6.add(jButton14, java.awt.BorderLayout.PAGE_START);
 
-        botao8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        botao8.setText("Center");
-        botao8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botao8ActionPerformed(evt);
-            }
-        });
+        jButton16.setText("South");
+        jPanel6.add(jButton16, java.awt.BorderLayout.PAGE_END);
 
-        botao9.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        botao9.setText("West");
+        jButton15.setText("East");
+        jPanel6.add(jButton15, java.awt.BorderLayout.LINE_END);
 
-        botao10.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        botao10.setText("North");
+        jButton13.setText("West");
+        jPanel6.add(jButton13, java.awt.BorderLayout.LINE_START);
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(botao10, javax.swing.GroupLayout.DEFAULT_SIZE, 353, Short.MAX_VALUE)
-            .addComponent(botao9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(botao8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(botao6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(botao7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addComponent(botao10, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(1, 1, 1)
-                .addComponent(botao9, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(1, 1, 1)
-                .addComponent(botao8, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(1, 1, 1)
-                .addComponent(botao7, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(botao6, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 23, Short.MAX_VALUE))
-        );
-
-        botao15.addTab("Border Layout", jPanel3);
+        jTabbedPane1.addTab("BorderLayout", jPanel6);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(23, Short.MAX_VALUE)
-                .addComponent(botao15, javax.swing.GroupLayout.PREFERRED_SIZE, 358, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(19, 19, 19))
+            .addComponent(jTabbedPane1)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(34, 34, 34)
-                .addComponent(botao15, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(34, Short.MAX_VALUE))
+            .addComponent(jTabbedPane1)
         );
 
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
-    private void botao8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao8ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_botao8ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -242,24 +156,24 @@ public class Exemplo16 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton botao1;
-    private javax.swing.JButton botao10;
-    private javax.swing.JButton botao11;
-    private javax.swing.JButton botao12;
-    private javax.swing.JButton botao13;
-    private javax.swing.JButton botao14;
-    private javax.swing.JTabbedPane botao15;
-    private javax.swing.JButton botao2;
-    private javax.swing.JButton botao3;
-    private javax.swing.JButton botao4;
-    private javax.swing.JButton botao5;
-    private javax.swing.JButton botao6;
-    private javax.swing.JButton botao7;
-    private javax.swing.JButton botao8;
-    private javax.swing.JButton botao9;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JTabbedPane jTabbedPane1;
     // End of variables declaration//GEN-END:variables
 }

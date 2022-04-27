@@ -1,4 +1,3 @@
-**
 package Exercicio1;
 
 import javax.swing.*;
@@ -54,8 +53,8 @@ public class Exemplo13 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void abrirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_abrirActionPerformed
-       String[] escolha = {"masculino", "Feminino"};
-        int resp = JOptionPane.showOptionDialog(null, "Escolha sexo: ", "Sexo", 0, JOptionPane.INFORMATION_MESSAGE, new ImageIcon("sexo.png"), escolha, escolha[0]);
+       String[] escolha = {"Masculino", "Feminino"};
+        int resp = JOptionPane.showOptionDialog(null, "Escolha sexo: ", "Sexo", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, new javax.swing.ImageIcon(getClass().getResource("/Icones/sexo.png")), escolha, escolha[0]);
         label.setText("Sexo Escolhido: "+escolha[resp]);
     }//GEN-LAST:event_abrirActionPerformed
 

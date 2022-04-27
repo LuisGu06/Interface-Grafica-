@@ -1,4 +1,3 @@
-**
 package Exercicio1;
 
 import javax.swing.*;
@@ -11,12 +10,6 @@ public class Exemplo8 extends javax.swing.JFrame {
         imagem.setIcon(image);
     }
     
-    public void exec(){
-        lista.addListSelectionListener(e->{
-            int index = lista.getSelectedIndex();
-            insert();
-        });
-    }
     
     public Exemplo8() {
         initComponents();
@@ -38,6 +31,11 @@ public class Exemplo8 extends javax.swing.JFrame {
             String[] strings = { "Foto1", "Foto2", "Foto3", "Foto4", "Foto5", "Foto6", "Foto7", "Foto8", "Foto9", "Foto10" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
+        });
+        lista.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                listaMouseClicked(evt);
+            }
         });
         jScrollPane1.setViewportView(lista);
 
@@ -65,6 +63,30 @@ public class Exemplo8 extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void listaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_listaMouseClicked
+        if(lista.getSelectedIndex()==0){
+           imagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/foto1.png")));
+       }else if(lista.getSelectedIndex()==1){
+           imagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/foto2.png")));
+       }else if(lista.getSelectedIndex()==2){
+           imagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/foto3.png")));
+       }if(lista.getSelectedIndex()==3){
+           imagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/foto4.png")));
+       }else if(lista.getSelectedIndex()==4){
+           imagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/foto5.png")));
+       }else if(lista.getSelectedIndex()==5){
+           imagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/foto6.png")));
+       }if(lista.getSelectedIndex()==6){
+           imagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/foto7.png")));
+       }else if(lista.getSelectedIndex()==7){
+           imagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/foto8.png")));
+       }else if(lista.getSelectedIndex()==8){
+           imagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/foto9.png")));
+       }else if(lista.getSelectedIndex()==9){
+           imagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/foto10.png")));
+       }
+    }//GEN-LAST:event_listaMouseClicked
 
     /**
      * @param args the command line arguments
